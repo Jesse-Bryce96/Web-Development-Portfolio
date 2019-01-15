@@ -13,22 +13,10 @@
     padding-top:20em;
     padding-bottom:40em;
 }
-#intro-heading {
-    
-}
 #intro-heading-colour{
     color:#9F4636;
 }
-#intro-image{
-    display:grid;
-    justify-items: center;
-    
-    
 
-}
-#intro-selfie{
-    border-radius:10em;
-}
 #intro-text{
     display:grid;
     align-content: center;
@@ -48,20 +36,16 @@
 }
 #nav-item1{
     grid-column:2/3;
-    //border:#ffffff solid 2px;
     
 }
 #nav-item2{
     color:#ffffff;
-    //border:#ffffff solid 2px;
 }
 #nav-item3{
     color:#ffffff;
-    //border:#ffffff solid 2px;
 }
 #nav-item4{
     color:#ffffff;
-    //border:#ffffff solid 2px;
 }
 
 #projects {
@@ -73,12 +57,39 @@
     padding-right:25%;
 }
 #about {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-auto-rows:480px;
+    grid-gap: 2.3em;
     margin:0;
+    margin-top: 6em;
     padding:0;
-    text-align:center;
     background-color:#ffffff;
     padding-left:25%;
     padding-right:25%;
+}
+#about-info{
+    display:grid;
+    margin:0;
+    padding:0;
+}
+#about-heading{
+    display:grid;
+    align-self:start;
+    justify-self: start;
+    margin:0;
+    padding:0;
+}#about-text{
+    display:grid;
+    align-self:start;
+    justify-self:start;
+    margin:0;
+    padding:0;
+}
+#about-button-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:1em;
 }
 #contact {
     margin:0;
@@ -104,7 +115,6 @@ h1{
     
 }
 h2{
-    text-align: center;
     font-size:3em;
     font-family:'Roboto',arial,sans-serif;
     font-weight: Medium;
@@ -115,7 +125,27 @@ h2{
 }
 p{
     font-family:'Roboto',arial, sans-serif;
+    font-size:1.3em;
     color:#2D3033;
     margin:0;
     padding:0;
+}
+
+.button{
+    background-color:grey;
+    color:white;
+    font-family:'Roboto',arial, sans-serif;
+    font-size:1.3em;
+    border:none;
+    padding:0em;
+}
+.button-arrow{
+    background-color:#ffffff;
+    border:none;
+}
+#about-arrow{
+    display:grid;
+    grid-column:1/3;
+    justify-items: center;
+    align-self:center;
 }
